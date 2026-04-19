@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WigetBoard – Privacy Policy</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #1a1a1a;
+            background: #f9f9f9;
+            line-height: 1.7;
+        }
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+        }
+        header .inner {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        header .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: #111;
+            text-decoration: none;
+        }
+        header .badge {
+            font-size: 11px;
+            background: #f0f0f0;
+            color: #555;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
+        main {
+            max-width: 740px;
+            margin: 48px auto;
+            padding: 0 24px 80px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .updated {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 36px 0 10px;
+            color: #111;
+        }
+        p { margin-bottom: 12px; color: #333; }
+        ul {
+            margin: 8px 0 12px 20px;
+            color: #333;
+        }
+        ul li { margin-bottom: 6px; }
+        a { color: #0066cc; }
+        .highlight {
+            background: #f0f7ff;
+            border-left: 3px solid #0066cc;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+            font-size: 14px;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="inner">
+        <a class="logo" href="#">WigetBoard</a>
+        <span class="badge">Chrome Extension</span>
+    </div>
+</header>
+
+<main>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: April 19, 2026</p>
+
+    <div class="highlight">
+        WigetBoard is designed with privacy in mind. All your data stays on your device. We do not collect, sell, or share any personal information.
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>WigetBoard ("the Extension") is a Chrome new tab extension that provides a customizable dashboard with various widgets. This Privacy Policy explains how the Extension handles your information.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>The Extension does <strong>not</strong> collect any personal data. All settings, preferences, and widget data are stored locally in your browser using <code>chrome.storage.local</code> and never transmitted to any external servers operated by us.</p>
+
+    <h2>3. Data Stored Locally</h2>
+    <p>The following information is saved locally on your device only:</p>
+    <ul>
+        <li>Widget layout and settings (e.g., selected city for weather, theme preferences)</li>
+        <li>Shortcuts and notes you create</li>
+        <li>GitHub personal access tokens (stored only in your browser's local storage)</li>
+        <li>Media files you upload (stored as data URLs in local storage)</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>Some widgets connect to third-party APIs to fetch content. The Extension sends only the minimum data required:</p>
+    <ul>
+        <li><strong>Weather</strong> – City name or coordinates sent to <a href="https://open-meteo.com" target="_blank">Open-Meteo</a> (open, no account required)</li>
+        <li><strong>News</strong> – Requests sent to public feeds (Hacker News, Qiita, Zenn, Yahoo! News, NHK, BBC, Reddit, Dev.to). No personal data is included.</li>
+        <li><strong>GitHub</strong> – Your personal access token is sent directly to the <a href="https://docs.github.com/en/rest" target="_blank">GitHub API</a>. The token is never sent to our servers.</li>
+        <li><strong>Stock / TradingView</strong> – Ticker symbols are sent to TradingView's embed service.</li>
+        <li><strong>Spotify</strong> – The Spotify embed URL is loaded in an iframe. No personal data is sent by the Extension.</li>
+        <li><strong>Wallpaper</strong> – Random images fetched from <a href="https://picsum.photos" target="_blank">Picsum Photos</a>.</li>
+    </ul>
+    <p>Each third-party service is governed by its own privacy policy. We encourage you to review them.</p>
+
+    <h2>5. Permissions</h2>
+    <p>The Extension requests the following Chrome permissions:</p>
+    <ul>
+        <li><strong>storage</strong> – To save your settings and widget data locally on your device.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The Extension is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page with an updated date. Continued use of the Extension after changes constitutes acceptance of the revised policy.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:1st.pocket.wars@gmail.com">1st.pocket.wars@gmail.com</a></p>
+
+    <footer>
+        <p>© 2026 WigetBoard · <a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+</main>
+
+</body>
+</html>
